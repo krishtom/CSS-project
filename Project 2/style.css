@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url('./assest/bg.png');
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8rem;
+    background-color: black;
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    right: 2rem;
+}
+
+.grow-list{
+    position: relative;
+    right:20rem ;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    position:relative;
+    right: 9rem;
+    border-right: 2px solid white;
+
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.buytoken-btn{
+    background-color: #ba0cc5;
+    border-radius: 15px;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+
+.heading{
+    font-size: 75px;
+    width: 40%;
+    margin: auto;
+    margin-top: 12rem;
+}
+
+.details{
+    width: 40%;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 400;
+  position: relative;
+  left: 3rem;
+}
+
+.access{
+    background-color: #ba0cc5;
+    border-radius: 15px;
+    font-size: 1.5rem;
+   padding: 0.5rem 1rem;
+   position: absolute;
+   left: 49rem;
+   margin-top: 5rem;
+}
