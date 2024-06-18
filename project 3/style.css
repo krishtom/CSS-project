@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin: auto;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.home {
+    border-bottom: 4px solid black;
+}
+
+.logo {
+    margin-left: 7.5rem;
+    height: 4rem;
+}
+
+.nav-button {
+    font-size: 2.5rem;
+
+}
+
+.search {
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    gap: 1rem;
+    padding: 1rem;
+    display: flex;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.person-image {
+    z-index: 1;
+}
+
+.square {
+    z-index: -1;
+    margin-left: -345px;
+    position: absolute;
+    margin-top: 330px;
+}
+
+.globe {
+    float: right;
+    margin-right: 700px;
+}
+
+.star1 {
+    float: right;
+    margin-top: 50px;
+}
+
+.star2 {
+    margin-left: 10rem;
+    width: 4rem;
+}
+
+.content {
+    margin-left: 700px;
+    margin-top: -450px;
+
+}
+
+.heading {
+    font-size: 4rem;
+}
+
+.heading-details {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.email-join {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.combo {
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 1rem;
+     font-size:1.3rem ;
+}
+.join{
+    background-color: black;
+    color: white;
+}
+
+.bottom{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.contact{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
